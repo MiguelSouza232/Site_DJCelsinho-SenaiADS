@@ -40,7 +40,7 @@
     <ul class="servicos-titulo">
       <li class="servicos-item">Serviços</li>
     </ul>
-    <p style="text-align: left; margin-left: 95px; color: white">
+    <p style="text-align: left; padding-left: 5%; color: white">
       <script>
         document.write(dia[data.getDay()] + ", " + data.getDate() + " de " + mes[data.getMonth()] + " de " + data.getFullYear());
       </script>
@@ -53,23 +53,25 @@
       <script>
         //Define a descrição do produto
         desc_produto = "Remixes de gêneros variados...... <br>Peça o seu agora";
+        desc_produto2 = "Sets de qualquer gênero...... <br>Peça o seu agora";
+        desc_produto3 = "Mashups de qualquer gênero...... <br>Peça o seu agora";
         slider = ['img/icone-servico.jpg', 'img/icone-servico2.jpg', 'img/icone-servico3.jpg']
         slider2 = ['img/icone-servico2.jpg', 'img/icone-servico3.jpg', 'img/icone-servico.jpg']
         slider3 = ['img/icone-servico3.jpg', 'img/icone-servico.jpg', 'img/icone-servico2.jpg']
-        </script>
+      </script>
       <div class="card" onclick="abrirDetalhes('Remixes', slider, desc_produto)">
         <img src="img/icone-servico.jpg">
         <h2>Remixes</h2>
         <p>Remixes de qualquer gênero</p>
         <span class="preco">R$ 150/cada</span>
       </div>
-      <div class="card" onclick="abrirDetalhes('Sets', slider2, desc_produto)">
+      <div class="card" onclick="abrirDetalhes('Sets', slider2, desc_produto2)">
         <img src="img/icone-servico2.jpg">
         <h2>Sets</h2>
         <p>Sets de qualquer gênero</p>
         <span class="preco">R$ 100/cada</span>
       </div>
-      <div class="card" onclick="abrirDetalhes('Mashups', slider3, desc_produto)">
+      <div class="card" onclick="abrirDetalhes('Mashups', slider3, desc_produto3)">
         <img src="img/icone-servico3.jpg">
         <h2>Mashups</h2>
         <p>Mashups de qualquer gênero</p>
